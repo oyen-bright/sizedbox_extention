@@ -1,6 +1,6 @@
 name: sizedbox_extention
 description: A flutter package for creating space between widgets without have to write the SizedBox or Container widget.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/oyen-bright/sizedbox_extention
 
 environment:
