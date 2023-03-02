@@ -12,10 +12,18 @@ and the Flutter guide for
 -->
 
 A Flutter package allows you to put empty space between widgets without using a Container or SizedBox widget.
+## Preview
+>Before Package
+![Alt text](./images/befoeExtention.png.png?raw=true "Before")
+
+>After Package
+![Alt text](./images/afterExtention.png?raw=true "After")
+
 
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
+> Add spacing to between your widgets
 
 
 ## Getting started
@@ -37,5 +45,4 @@ const like = 'sample';
 TODO: Tell users more about the package: where to find more information, how to 
 contribute to the package, how to file issues, what response they can expect 
 from the package authors, and more.
-# sizedbox_extention
 # sizedbox_extention
