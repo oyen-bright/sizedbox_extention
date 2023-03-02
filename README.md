@@ -14,7 +14,7 @@ and the Flutter guide for
 A Flutter package allows you to put empty space between widgets without using a Container or SizedBox widget.
 ## Preview
 >Before Package
-![Alt text](./images/befoeExtention.png.png?raw=true "Before")
+![Alt text](./images/befoeExtention.png?raw=true "Before")
 
 >After Package
 ![Alt text](./images/afterExtention.png?raw=true "After")
