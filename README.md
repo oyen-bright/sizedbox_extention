@@ -10,11 +10,13 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
+# sizedbox_extention
 
 A Flutter package allows you to put empty space between widgets without using a Container or SizedBox widget.
+
 ## Preview
 >Before Package
-![Alt text](./images/beforeExtention.png?raw=true "Before")
+![Alt text](./images/before_Extention.png?raw=true "Before")
 
 >After Package
 ![Alt text](./images/afterExtention.png?raw=true "After")
@@ -23,26 +25,80 @@ A Flutter package allows you to put empty space between widgets without using a 
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
-> Add spacing to between your widgets
+> Add spacing between your widgets
 
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+1. Add dependency to pubspec.yaml
 
-## Usage
+Get the latest version in the 'Installing' tab on [pub.dev](https://pub.dev/packages/sizedbox_extention)
+```dart
+dependencies:
+    sizedbox_extention: <latest-version>
+```
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+2. Import the package
 
 ```dart
-const like = 'sample';
+import 'package:sizedbox_extention/sizedbox_extention.dart';
+
 ```
+
+3. Adding a sizedbox_extention widget.
+```dart
+//For height Spacing 
+Column(
+              children: [
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.red,
+                ),
+                50.height,
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.yellow,
+                ),
+                30.height,
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.green,
+                ),
+              ],
+            ),
+
+
+//For width Spacing 
+Row(
+              children: [
+                Container(
+                  width: 100,
+                  height: double.infinity,
+                  color: Colors.orange,
+                ),
+                60.width,
+                Container(
+                  width: 100,
+                  height: double.infinity,
+                  color: Colors.brown,
+                ),
+                30.width,
+                Container(
+                  width: 100,
+                  height: double.infinity,
+                  color: Colors.black,
+                ),
+              ],
+            )
+```
+
+## How to use 
+Check out the example app in the example directory or the ['Example'](https://github.com/oyen-bright/sizedbox_extention/tree/main/example) tab on pub.dartlang.org for a more complete example.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
-# sizedbox_extention
+Wana know how this was done check this [out](https://dart.dev/guides/language/extension-methods) 
+
